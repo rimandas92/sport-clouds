@@ -1,0 +1,43 @@
+{
+  "name": "sports-cloud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "dependencies": {
+    "apn": "^2.2.0",
+    "async": "^3.2.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fcm-push": "^1.1.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.12.7",
+    "mongoose-aggregate-paginate": "^2.0.1",
+    "mongoose-paginate": "^5.0.3",
+    "node-cron": "^3.0.0",
+    "nodemailer": "^6.6.0",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nodemon": "^2.0.15",
+    "paytabs_api": "^1.0.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "socket.io": "^4.0.1"
+  },
+  "scripts": {
+    "start": "nodemon sportsCloud.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rvislive/sports-cloud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rvislive/sports-cloud/issues"
+  },
+  "homepage": "https://gitlab.com/rvislive/sports-cloud#readme"
+}
